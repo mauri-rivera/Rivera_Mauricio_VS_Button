@@ -1,0 +1,64 @@
+* {
+    margin: 2%;
+}
+
+.botonUno {
+    background-color: rgb(200, 200, 200);
+    border-color: rgba(0, 255, 174, 0.512);
+    border-radius: 2em;
+    color: rgba(0, 255, 174, 0.512);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 1% 10%;
+}
+
+.botonDos {
+    border: none;
+    border-radius: 50%;
+    font-size: xx-large;
+    padding: 0 1.5%;
+}
+
+.botonTres {
+    background-color: rgb(36, 36, 199);
+    border: solid;
+    border-color: black;
+    padding: .5em 2em;
+}
+
+.botonDos:hover {
+    background-color: rgb(9, 114, 81);
+} 
+
+.botonDos:active {
+    margin-left: 2.5%;
+}
+
+.botonTres:active {
+    margin-left: 4.5%;
+}
+
+.botonTres, .botonTres:active {
+    box-shadow: 5px 5px 5px black;
+}
+
+.botonUno:hover {
+    margin-left: 5%;
+}
+
+.botonDos, .botonTres {
+    color: white;
+}
+
+.botonDos, .botonDos:active {
+    background-color: rgb(10, 211, 147);
+}
+
+.botonUno:hover, .botonDos:active, .botonTres:active {
+    transform: scale(1.2, 1.2);
+}
+
+.botonUno:hover, .botonDos:hover, .botonTres:hover {
+    cursor: pointer;
+}
+
