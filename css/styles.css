@@ -9,14 +9,16 @@
     color: rgba(0, 255, 174, 0.512);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    padding: 1% 10%;
+    padding: 1% 5%;
+    /*padding: 1% 10% */
 }
 
 .botonDos {
     border: none;
     border-radius: 50%;
     font-size: xx-large;
-    padding: 0 1.5%;
+    padding: .8% 1.5%;
+    /*padding: 0 1.5%*/
 }
 
 .botonTres {
@@ -34,17 +36,19 @@
     margin-left: 2.5%;
 }
 
-.botonTres:active {
-    margin-left: 4.5%;
-}
+/*.botonTres:active {
+    /*margin-left: 4.5%;
+    margin-left: 3.3%;
+}*/
 
 .botonTres, .botonTres:active {
     box-shadow: 5px 5px 5px black;
 }
 
-.botonUno:hover {
-    margin-left: 5%;
-}
+/*.botonUno:hover {
+    /*margin-left: 5%;
+    margin-left: 3.3%;
+}*/
 
 .botonDos, .botonTres {
     color: white;
@@ -52,6 +56,10 @@
 
 .botonDos, .botonDos:active {
     background-color: rgb(10, 211, 147);
+}
+
+.botonUno:hover, .botonTres:active {
+    margin-left: 3.3%;
 }
 
 .botonUno:hover, .botonDos:active, .botonTres:active {
